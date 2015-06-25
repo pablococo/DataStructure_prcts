@@ -6,15 +6,15 @@
 //  Copyright (c) 2015년 Pablo coco. All rights reserved.
 //
 
-#include <stdio.h>
-
-int Factorial(int n){
-    if (n==0) {
-        return 1;
-    }else
-        return n * Factorial(n-1);
-}
-
+//#include <stdio.h>
+//
+//int Factorial(int n){
+//    if (n==0) {
+//        return 1;
+//    }else
+//        return n * Factorial(n-1);
+//}
+//
 //int main(void){
 //    printf("1! = %d \n", Factorial(1));
 //    printf("1! = %d \n", Factorial(2));

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		680BEEED1B2EF038000577D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680BEEEC1B2EF038000577D3 /* main.cpp */; };
+		68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */; };
+		68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */; };
+		68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		680BEEE91B2EF038000577D3 /* DataStructure_prcts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_prcts; sourceTree = BUILT_PRODUCTS_DIR; };
 		680BEEEC1B2EF038000577D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFactorial.cpp; sourceTree = "<group>"; };
+		68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFunc.cpp; sourceTree = "<group>"; };
+		68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciFunc.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		680BEEEB1B2EF038000577D3 /* DataStructure_prcts */ = {
 			isa = PBXGroup;
 			children = (
+				68E679FC1B3C442400A7A36E /* Recursive */,
 				680BEEEC1B2EF038000577D3 /* main.cpp */,
 			);
 			path = DataStructure_prcts;
+			sourceTree = "<group>";
+		};
+		68E679FC1B3C442400A7A36E /* Recursive */ = {
+			isa = PBXGroup;
+			children = (
+				68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */,
+				68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */,
+				68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */,
+			);
+			name = Recursive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */,
+				68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */,
 				680BEEED1B2EF038000577D3 /* main.cpp in Sources */,
+				68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +252,7 @@
 				680BEEF21B2EF038000577D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
