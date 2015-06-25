@@ -11,6 +11,7 @@
 		68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */; };
 		68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */; };
 		68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */; };
+		68E67A001B3C483A00A7A36E /* BSearchRecur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679FF1B3C483A00A7A36E /* BSearchRecur.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFactorial.cpp; sourceTree = "<group>"; };
 		68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFunc.cpp; sourceTree = "<group>"; };
 		68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciFunc.cpp; sourceTree = "<group>"; };
+		68E679FF1B3C483A00A7A36E /* BSearchRecur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSearchRecur.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */,
 				68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */,
 				68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */,
+				68E679FF1B3C483A00A7A36E /* BSearchRecur.cpp */,
 			);
 			name = Recursive;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E67A001B3C483A00A7A36E /* BSearchRecur.cpp in Sources */,
 				68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */,
 				68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */,
 				680BEEED1B2EF038000577D3 /* main.cpp in Sources */,
