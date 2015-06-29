@@ -14,6 +14,7 @@
 		68E67A001B3C483A00A7A36E /* BSearchRecur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679FF1B3C483A00A7A36E /* BSearchRecur.cpp */; };
 		68E67A021B3C4B8A00A7A36E /* BSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E67A011B3C4B8A00A7A36E /* BSearch.cpp */; };
 		68E67A051B3CE7DA00A7A36E /* LinearSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E67A041B3CE7DA00A7A36E /* LinearSearch.cpp */; };
+		68F155D01B40E08300E2C550 /* ArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = 68F155CF1B40E08300E2C550 /* ArrayList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		68E679FF1B3C483A00A7A36E /* BSearchRecur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSearchRecur.cpp; sourceTree = "<group>"; };
 		68E67A011B3C4B8A00A7A36E /* BSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSearch.cpp; sourceTree = "<group>"; };
 		68E67A041B3CE7DA00A7A36E /* LinearSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearSearch.cpp; sourceTree = "<group>"; };
+		68F155CF1B40E08300E2C550 /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArrayList.c; sourceTree = "<group>"; };
+		68F155D11B40E09100E2C550 /* ArrayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		680BEEEB1B2EF038000577D3 /* DataStructure_prcts */ = {
 			isa = PBXGroup;
 			children = (
+				68F155CE1B40E06900E2C550 /* LinkedList */,
 				68E67A031B3CE7C400A7A36E /* LinearSearch */,
 				68E679FC1B3C442400A7A36E /* Recursive */,
 				680BEEEC1B2EF038000577D3 /* main.cpp */,
@@ -94,6 +98,15 @@
 				68E67A041B3CE7DA00A7A36E /* LinearSearch.cpp */,
 			);
 			name = LinearSearch;
+			sourceTree = "<group>";
+		};
+		68F155CE1B40E06900E2C550 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				68F155CF1B40E08300E2C550 /* ArrayList.c */,
+				68F155D11B40E09100E2C550 /* ArrayList.h */,
+			);
+			name = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +172,7 @@
 				68E67A051B3CE7DA00A7A36E /* LinearSearch.cpp in Sources */,
 				680BEEED1B2EF038000577D3 /* main.cpp in Sources */,
 				68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */,
+				68F155D01B40E08300E2C550 /* ArrayList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

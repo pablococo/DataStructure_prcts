@@ -1,24 +1,25 @@
+////
+////  RecursiveFunc.cpp
+////  DataStructure_prcts
+////
+////  Created by Pablo coco on 2015. 6. 25..
+////  Copyright (c) 2015년 Pablo coco. All rights reserved.
+////
 //
-//  RecursiveFunc.cpp
-//  DataStructure_prcts
 //
-//  Created by Pablo coco on 2015. 6. 25..
-//  Copyright (c) 2015년 Pablo coco. All rights reserved.
-//
-
-
 //#include <iostream>
 //using namespace std;
 //
+//
 //void Recursive(int num){
-//    if (num <= 0)
+//    if (num == 0) {
 //        return;
-//    std::cout<<"Recursive call! "<< num << endl;
+//    }
+//    cout<<"Recursive call! "<<num<<endl;
 //    Recursive(num-1);
 //}
 //
-//
-//int main(int argc, const char * argv[]) {
+//int main(void) {
 //    Recursive(3);
 //    return 0;
 //}
