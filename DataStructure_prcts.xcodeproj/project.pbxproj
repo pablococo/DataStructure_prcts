@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		680BEEED1B2EF038000577D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680BEEEC1B2EF038000577D3 /* main.cpp */; };
+		680FC2DF1B46200700309F04 /* ArrayRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680FC2DE1B46200700309F04 /* ArrayRead.cpp */; };
+		680FC2E11B46211F00309F04 /* LinkedRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680FC2E01B46211F00309F04 /* LinkedRead.cpp */; };
 		68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */; };
 		68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */; };
 		68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		680BEEE91B2EF038000577D3 /* DataStructure_prcts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_prcts; sourceTree = BUILT_PRODUCTS_DIR; };
 		680BEEEC1B2EF038000577D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		680FC2DE1B46200700309F04 /* ArrayRead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayRead.cpp; sourceTree = "<group>"; };
+		680FC2E01B46211F00309F04 /* LinkedRead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedRead.cpp; sourceTree = "<group>"; };
 		68E679F31B3C3BF300A7A36E /* RecursiveFactorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFactorial.cpp; sourceTree = "<group>"; };
 		68E679F91B3C3E0100A7A36E /* RecursiveFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFunc.cpp; sourceTree = "<group>"; };
 		68E679FD1B3C444B00A7A36E /* FibonacciFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciFunc.cpp; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			children = (
 				68F155CF1B40E08300E2C550 /* ArrayList.c */,
 				68F155D11B40E09100E2C550 /* ArrayList.h */,
+				680FC2DE1B46200700309F04 /* ArrayRead.cpp */,
+				680FC2E01B46211F00309F04 /* LinkedRead.cpp */,
 			);
 			name = LinkedList;
 			sourceTree = "<group>";
@@ -168,8 +174,10 @@
 				68E67A001B3C483A00A7A36E /* BSearchRecur.cpp in Sources */,
 				68E679FE1B3C444B00A7A36E /* FibonacciFunc.cpp in Sources */,
 				68E67A021B3C4B8A00A7A36E /* BSearch.cpp in Sources */,
+				680FC2DF1B46200700309F04 /* ArrayRead.cpp in Sources */,
 				68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */,
 				68E67A051B3CE7DA00A7A36E /* LinearSearch.cpp in Sources */,
+				680FC2E11B46211F00309F04 /* LinkedRead.cpp in Sources */,
 				680BEEED1B2EF038000577D3 /* main.cpp in Sources */,
 				68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */,
 				68F155D01B40E08300E2C550 /* ArrayList.c in Sources */,
