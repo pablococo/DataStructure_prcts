@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680A010D1B4A1A2100014247 /* DLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680A010B1B4A1A2100014247 /* DLinkedList.cpp */; };
 		680BEEED1B2EF038000577D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680BEEEC1B2EF038000577D3 /* main.cpp */; };
 		680FC2DF1B46200700309F04 /* ArrayRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680FC2DE1B46200700309F04 /* ArrayRead.cpp */; };
 		680FC2E11B46211F00309F04 /* LinkedRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680FC2E01B46211F00309F04 /* LinkedRead.cpp */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		680A010B1B4A1A2100014247 /* DLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DLinkedList.cpp; sourceTree = "<group>"; };
+		680A010C1B4A1A2100014247 /* DLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
 		680BEEE91B2EF038000577D3 /* DataStructure_prcts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_prcts; sourceTree = BUILT_PRODUCTS_DIR; };
 		680BEEEC1B2EF038000577D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		680FC2DE1B46200700309F04 /* ArrayRead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayRead.cpp; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				68F155D11B40E09100E2C550 /* ArrayList.h */,
 				680FC2DE1B46200700309F04 /* ArrayRead.cpp */,
 				680FC2E01B46211F00309F04 /* LinkedRead.cpp */,
+				680A010B1B4A1A2100014247 /* DLinkedList.cpp */,
+				680A010C1B4A1A2100014247 /* DLinkedList.h */,
 			);
 			name = LinkedList;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				68E679F41B3C3BF300A7A36E /* RecursiveFactorial.cpp in Sources */,
 				68E67A051B3CE7DA00A7A36E /* LinearSearch.cpp in Sources */,
 				680FC2E11B46211F00309F04 /* LinkedRead.cpp in Sources */,
+				680A010D1B4A1A2100014247 /* DLinkedList.cpp in Sources */,
 				680BEEED1B2EF038000577D3 /* main.cpp in Sources */,
 				68E679FA1B3C3E0100A7A36E /* RecursiveFunc.cpp in Sources */,
 				68F155D01B40E08300E2C550 /* ArrayList.c in Sources */,
